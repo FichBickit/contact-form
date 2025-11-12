@@ -51,3 +51,27 @@ html {
 .successPara {
     color: var(--green-200)
 }
+
+.formBox {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: fit-content;
+    background-color: var(--white);
+}
+
+.mainHeading {
+    color: var(--grey-900);
+}
+
+.nameInputs {
+    display: flex;
+}
+
+.queryTypes {
+    display: flex;
+}
+
+.messageInput {
+    resize: none;
+}
