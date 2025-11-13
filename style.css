@@ -24,6 +24,8 @@
 html {
     font-family: "TheFont", sans-serif;
     background-color: var(--green-200);
+    color: var(--grey-900);
+    font-weight: bold;
 }
 
 .confirmationPopup {
@@ -62,14 +64,25 @@ html {
     background-color: var(--white);
 }
 
-/* .mainHeading {
+.mainHeading {
     color: var(--grey-900);
-} */
+    padding-bottom: 15px;
+}
+
+span {
+    color: var(--green-900)
+}
+
+.label {
+    margin-bottom: 20px;
+}
 
 .nameInputs {
     display: flex;
     justify-content: space-between;
+    gap: 10px;
     width: 100%;
+    margin-bottom: 15px;
 }
 
 .firstNameInput {
@@ -78,6 +91,11 @@ html {
 
 #firstName {
     width: 100%;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid var(--grey-500);
+    outline: none;
 }
 
 .lastNameInput {
@@ -86,6 +104,28 @@ html {
 
 #lastName {
     width: 100%;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid var(--grey-500);
+    outline: none;
+}
+
+.emailInput {
+    width: 100%;
+}
+
+.emailPhysicalInput {
+    width: 100%;
+}
+
+#emailAddress {
+    width: 100%;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid var(--grey-500);
+    outline: none;
 }
 
 .queryTypes {
@@ -99,4 +139,9 @@ html {
 .messageDiv {
     display: flex;
     flex-direction: column;
+}
+
+.consentButton {
+    display: flex;
+    align-items: center;
 }
