@@ -56,16 +56,36 @@ html {
     position: relative;
     left: 50%;
     transform: translateX(-50%);
-    width: fit-content;
+    padding: 30px;
+    border-radius: 15px;
+    width: 45vw;
     background-color: var(--white);
 }
 
-.mainHeading {
+/* .mainHeading {
     color: var(--grey-900);
-}
+} */
 
 .nameInputs {
     display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.firstNameInput {
+    width: 50%
+}
+
+#firstName {
+    width: 100%;
+}
+
+.lastNameInput {
+    width: 50%
+}
+
+#lastName {
+    width: 100%;
 }
 
 .queryTypes {
@@ -74,4 +94,9 @@ html {
 
 .messageInput {
     resize: none;
+}
+
+.messageDiv {
+    display: flex;
+    flex-direction: column;
 }
