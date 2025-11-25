@@ -74,7 +74,8 @@ span {
 }
 
 .label {
-    margin-bottom: 20px;
+    display: block;
+    margin-bottom: 10px;
 }
 
 .nameInputs {
@@ -82,7 +83,7 @@ span {
     justify-content: space-between;
     gap: 10px;
     width: 100%;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 .firstNameInput {
@@ -123,6 +124,7 @@ span {
     width: 100%;
     font-size: 20px;
     padding: 5px;
+    margin-bottom: 20px;
     border-radius: 5px;
     border: 1px solid var(--grey-500);
     outline: none;
@@ -130,10 +132,12 @@ span {
 
 .queryTypes {
     display: flex;
+    margin-bottom: 20px;
 }
 
 .messageInput {
     resize: none;
+    margin-bottom: 20px;
 }
 
 .messageDiv {
@@ -144,4 +148,5 @@ span {
 .consentButton {
     display: flex;
     align-items: center;
+    margin-bottom: 20px;
 }
