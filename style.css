@@ -132,12 +132,33 @@ span {
 
 .queryTypes {
     display: flex;
+    justify-content: space-between;
     margin-bottom: 20px;
+}
+
+.queryInputs {
+    display: flex;
+    gap: 10px;
+    width: 100%
+}
+
+.generalEnquiry, .supportRequest {
+    display: flex;
+    border: 1px solid var(--grey-500);
+    padding: 10px;
+    padding-left: 15px;
+    border-radius: 5px;
+    width: 50%;
+}
+
+.geInput {
+    margin-right: 10px;
 }
 
 .messageInput {
     resize: none;
     margin-bottom: 20px;
+    border-radius: 5px;
 }
 
 .messageDiv {
@@ -145,8 +166,22 @@ span {
     flex-direction: column;
 }
 
+.consent {
+    margin-right: 10px;
+}
+
 .consentButton {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
+}
+
+.submit {
+    width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+    border: 0px;
+    background-color: var(--green-600);
+    color: var(--white);
+    font-family: "TheFont", sans-serif;
 }
