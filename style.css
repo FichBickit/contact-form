@@ -152,7 +152,7 @@ span {
     width: 50%;
 }
 
-.geInput {
+.geInput, .srInput {
     margin-right: 10px;
 }
 
@@ -187,6 +187,12 @@ span {
     font-family: "TheFont", sans-serif;
 }
 
-.error {
+.firstNameEmpty, .firstNameFormatError, .lastNameEmpty, .lastNameFormatError {
+    display: none;
     color: red;
 }
+
+.error {
+    display: block;
+}
+
