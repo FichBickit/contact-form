@@ -7,8 +7,9 @@ valid = false;
 
 submit.addEventListener("click", (e) => {
     e.preventDefault();
-    if (nameRegex.test(firstName.value) && nameRegex.test(lastName.value)) {
+    if (nameRegex.test(firstName.value)) {
         valid = true;
+        
         console.log(valid);
     } else {
         valid = false;

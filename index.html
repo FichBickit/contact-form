@@ -23,12 +23,18 @@
     <form class="contactForm" novalidate>
       <article class="nameInputs">
         <section class="firstNameInput">
-          <label for="firstName" class="label">First Name <span>*</span></label>
-          <input type="text" id="firstName" name="firstName" />
-        </section>
+          <section class="firstNamePlusError">
+            <label for="firstName" class="label">First Name <span>*</span></label>
+            <input type="text" id="firstName" name="firstName" />
+          </section>
+          <p class="firstNameEmpty error">This field is required</p>
+          <p class="firstNameFormatError error">Incorrect format</p>
+          </section>
         <section class="lastNameInput">
           <label for="lastName" class="label">Last Name <span>*</span></label>
           <input type="text" id="lastName" name="lastName" />
+          <p class="lastNameEmpty error">This field is required</p>
+          <p class="lastNameFormatError error">Incorrect format</p>
         </section>
       </article>
       <section class="emailInput">

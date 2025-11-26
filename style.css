@@ -186,3 +186,7 @@ span {
     color: var(--white);
     font-family: "TheFont", sans-serif;
 }
+
+.error {
+    color: red;
+}
